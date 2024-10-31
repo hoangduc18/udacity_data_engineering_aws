@@ -10,6 +10,11 @@ STEDI has developed the **STEDI Step Trainer**, a device designed to train users
 
 The goal of this project is to extract, process, and curate data from the step trainer and mobile app to create a clean, structured dataset that STEDI’s Data Science team can use to develop machine learning models. Privacy is a priority, so only data from consenting users will be included in the dataset.
 
+## Project Workflow
+![flow chart](Images/flowchart.jpeg)
+
+## Relationship Diagram Between Entities
+![relation diagram](Images/dataset.jpeg)
 ## Requirements
 
 To achieve these goals, the following steps are undertaken:
@@ -50,9 +55,9 @@ To achieve these goals, the following steps are undertaken:
 - **customer_landing.sql**: SQL script for creating the customer landing table.
 - **accelerometer_landing.sql**: SQL script for creating the accelerometer landing table.
 - **Screenshots**:
-  - `customer_landing.png`
-  - `accelerometer_landing.png`
-  - `customer_trusted.png`
+  - [Customer Landing](Images/Landing/customer_landing_956_rows.png)
+  - [accelerometer Landing](Images/Landing/accelerometer_landing_81273_rows.png)
+  - [Customer trusted](Images/Trusted/customer_trusted_482_rows.png)
 
 ## Getting Started
 
